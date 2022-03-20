@@ -1,0 +1,950 @@
+@media(min-width: 1400px){
+    .navbar {
+        padding-top: 0;
+        padding-bottom:0;
+        }
+    .banner-text h2 {
+        margin-top: 54px;
+    }
+    .subscribe button {
+        right: 37px;
+    }
+}
+@media(min-width: 1200px) and (max-width: 1399px){
+.navbar {
+    padding-top: 0;
+    padding-bottom:0;
+    }
+/* banner */
+.banner-text h1 {
+	font-size: 126px;
+	line-height: 109px;
+}
+.banner-btn a {
+    font-size: 13px;
+    padding: 15px 45px;
+}
+.banner-btn {
+    margin-top: 75px;
+}
+.banner-text h2 {
+    font-size: 68px;
+    padding-bottom: 43px;
+}
+.banner-text h1::after{
+    bottom: -74px;
+}
+.banner-text {
+    margin-top: 30px;
+}
+ /* footer */
+ .subscribe input {
+    padding: 15px 152px 15px 15px;
+    border: none;
+    border: 1px solid #e7e7e7;
+}
+.subscribe button {
+    position: absolute;
+    padding: 18px 31px;
+    font-size: 13px;
+    margin-top: 1px;
+    right: 7px;
+}
+.about-content h3 {
+	width: 126px;
+}
+}
+@media(min-width: 992px) and (max-width: 1199px){
+    .navbar {
+        padding-top: 0;
+        padding-bottom:0;
+        }
+    .banner-text h1 {
+        font-size: 100px;
+        line-height: 88px;
+    }
+    .banner-btn a {
+        font-size: 13px;
+        padding: 13px 35px;
+    }
+    .banner-btn {
+        margin-top: 75px;
+    }
+    .banner-text h2 {
+        font-size: 45px;
+        padding-bottom: 43px;
+    }
+    .banner-text h1::after{
+        bottom: -74px;
+    }
+    .banner-text {
+        margin-top: 30px;
+    }
+    /* ===comment=== */
+    .comment-content p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-right: 0px;
+        padding: 0px 1px;
+        padding-top: 11px;
+    }
+    .comment-content h3{
+        color: #333333;
+        font-size: 24px;
+        font-family: 'Kaushan Script', cursive;
+        font-weight: 400;
+        position: relative;
+        left: 74px;
+        display: inline-block;
+    }
+    #comment {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .comment-content {
+        padding-right: 50px;
+    }
+    /* team */
+    
+        .person-details {
+            padding: 30px 0px 20px 0px;
+        }
+    
+    .person-details h3 {
+        padding-bottom: 2px;
+        line-height: 20px;
+    }
+    /* work*/
+
+    
+    .work-content i {
+        font-size: 30px;
+        padding-bottom: 16px;
+    }
+    .work-content h3 {
+        font-size: 13px;
+        padding-bottom: 2px;
+    }
+    .work-content p {
+        font-size: 13px;
+    }
+    #work {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    /* footer */
+    .subscribe input {
+        padding: 15px 152px 15px 15px;
+        border: none;
+        border: 1px solid #e7e7e7;
+    }
+    .subscribe button {
+        position: absolute;
+        padding: 18px 31px;
+        font-size: 13px;
+        margin-top: 1px;
+        right: 7px;
+    }
+    .followers {
+        padding-top: 6px;
+        padding-bottom: 22px;
+    }
+    .footer-left-paragraph p {
+
+        padding-bottom: 21px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+     /* ==navbar== */
+     
+     .navbar {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        }
+    .navbar-toggler{
+        color: white;
+        margin-top: -10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+   
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding: 7px 0px;
+    }
+    .navbar-nav.ms-auto.mb-2.mb-lg-0 {
+        background: linear-gradient(to top,rgba(252, 227, 138, 0.9),rgba(243, 129, 129, 0.9));
+        margin-top: -4px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 13px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after{
+       display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link{
+        color: #fce38a!important;
+    }
+
+/*===banner==*/
+    .banner-text h1 {
+        font-size: 51px;
+        line-height: 1px;   
+    }
+    .banner-btn a {
+        font-size: 13px;
+        padding: 7px 23px;
+    }
+    .banner-btn {
+        margin-top: 75px;
+    }
+    .banner-text h2 {
+        font-size: 45px;
+        padding-bottom: 43px;
+    }
+    .banner-text h1::after{
+        bottom: -74px;
+    }
+    .banner-text.text-center {
+        margin-top: 20px;
+    }
+    /*==about==*/
+    #about {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    .slick-dots li {
+        height: 9px;
+        width: 9px;
+    }
+    .slick-dots li button {
+        height: 9px;
+        width: 9px;
+    }
+    .section-tittle h2 {
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+    .section-tittle h3 {
+        font-size: 18px;
+        padding-bottom: 11px;
+    }
+    .section-tittle p {
+        font-size: 13px;
+        line-height: 19px;
+        padding: 18px 71px;
+    }
+    .section-tittle {
+        padding-bottom: 0px;
+    }
+    .about-content h3 {
+        font-size: 16px;
+    }
+    .about-content h3 {
+        width: 126px;
+    }
+    /* ===counter=== */
+    #counter {
+        padding-top: 50px;
+        padding-bottom: 24px;
+    }
+    .counter-up h2 {
+        font-size: 45px;
+        padding-bottom: 8px;
+    }
+    .counter-up p {
+        font-size: 14px;
+    }
+    .counter-up {
+        margin-bottom: 36px;
+    }
+    /*===service===*/
+    #service {
+        padding-top: 80px;
+        padding-bottom: 45px;
+    }
+    .service-content h3 {
+        padding-top: 15px;
+        padding-bottom: 2px;
+        font-size: 13px;
+    }
+    .service-content p {
+        line-height: 19px;
+        font-weight: 300;
+        padding: 0px 34px;
+        font-size: 13px;
+    }
+    .sec-service{
+        padding-bottom: 22px;
+    }
+    .service-item {
+        margin-top: 0;
+    }
+    .service-icon.text-center.text-lg-start {
+        padding-top: 23px;
+    }
+    /* ===comment=== */
+    .comment-content h3 {
+        left: 74px;
+        font-size: 21px;
+    }
+    
+    .comment-content p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-right: 0px;
+        padding: 0px 1px;
+        padding-top: 08px;
+    }
+    #comment {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .comment-content {
+        padding-right: 50px;
+    }
+    /* ===team=== */
+    #team {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .person-details {
+        padding: 20px 0px 0px 0px
+    }
+    .person-details h3 {
+        padding-bottom: 2px;
+        line-height: 20px;
+    }
+    .person-social-icon a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .person-social-icon {
+        left: 60%;
+        width: 206px;
+    }
+    /*===work===*/
+    
+    .work-content i {
+        font-size: 30px;
+        padding-bottom: 16px;
+    }
+    .work-content h3 {
+        font-size: 13px;
+        padding-bottom: 2px;
+    }
+    .work-content p {
+        font-size: 13px;
+    }
+    #work {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    /*===footer===*/
+    footer {
+        padding-top: 54px;
+        padding-bottom: 50px;
+    }
+    .footer-logo {
+       
+        margin-left: -49px;
+    }
+    .footer-left-paragraph p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-top: 12px;
+        padding-bottom: 7px;
+    }
+    .followers-tittle h4 {
+        padding-bottom: 21px;
+    }
+    .followers span {
+        font-size: 14px;
+        padding-right: 4px;
+    }
+    .followers a {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .followers a i {
+        font-size: 17px;
+    }
+    .followers {
+        padding-top: 6px;
+        padding-bottom: 13px;
+    }
+    .subscribe input {
+        padding: 8px 100px 8px 10px;
+       
+    }
+    .subscribe button {
+        position: absolute;
+        padding: 11px 18px;
+        font-size: 13px;
+        margin-top: 1px;
+        right: 24px;
+    }
+    .blog-content h4 {
+        line-height: 17px;
+        margin-top: 10px;
+    }
+    .footer-tittle h4 {
+        font-size: 13px;
+        margin-bottom: 19px;
+        margin-top: 55px;
+    }
+    .footer-tittle {
+        margin-top: -40px;
+    }
+    /*===copyright===*/
+    #copyright {
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+    .copyright-text h3 {
+        font-size: 13px;
+    }
+    footer {
+        padding-bottom: 27px;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767px){
+    /* ==navbar== */
+    .navbar-brand h3 {
+        transform: scale(0.9);
+    }
+    .navbar {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        }
+    
+    .navbar-toggler{
+        color: white;
+        margin-top: -10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+   
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding: 7px 0px;
+    }
+    .left {
+        color: rgb(255 255 255);
+        background-color:transparent;
+    }
+    .right {
+        color: rgb(255 255 255);
+        background-color:transparent;
+    }
+    .navbar-nav.ms-auto.mb-2.mb-lg-0 {
+        background: linear-gradient(to top,rgba(252, 227, 138, 0.9),rgba(243, 129, 129, 0.9));
+        margin-top: -4px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 13px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after{
+       display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link{
+        color: #fce38a!important;
+    }
+
+/* ===banner */
+    .banner-text h1 {
+        font-size: 32px;
+        line-height: 1px;   
+    }
+    .banner-btn a {
+        font-size: 13px;
+        padding: 7px 23px;
+    }
+    .banner-btn {
+        margin-top: 38px;
+    }
+    .banner-text h2 {
+        font-size: 33px;
+        padding-bottom: 24px;
+    }
+    .banner-text h1::after{
+        display: none;
+    }
+    .banner-text.text-center {
+        margin-top: 20px;
+    }
+    /*==about==*/
+    #about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about-content h3 {
+        width: 126px;
+    }
+    .section-tittle h2 {
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+    .section-tittle h3 {
+        font-size: 18px;
+        padding-bottom: 11px;
+    }
+    .section-tittle p {
+        font-size: 13px;
+        line-height: 19px;
+        padding: 18px 18px;
+    }
+    .section-tittle {
+        padding-bottom: 0px;
+    }
+    .about-content h3 {
+        font-size: 16px;
+    }
+    /* ===counter=== */
+    #counter {
+        padding-top: 50px;
+        padding-bottom: 24px;
+    }
+    .counter-up h2 {
+        font-size: 45px;
+        padding-bottom: 8px;
+    }
+    .counter-up p {
+        font-size: 14px;
+    }
+    .counter-up {
+        margin-bottom: 36px;
+    }
+    /*===service===*/
+    #service {
+        padding-top: 50px;
+        padding-bottom: 35px;
+    }
+    .service-content h3 {
+        padding-top: 15px;
+        padding-bottom: 2px;
+        font-size: 13px;
+    }
+    .service-content p {
+        line-height: 19px;
+        font-weight: 300;
+        padding: 0px 34px;
+        font-size: 13px;
+    }
+    .sec-service{
+        padding-bottom: 22px;
+    }
+    .service-item {
+        margin-top: 0;
+    }
+    .service-icon.text-center.text-lg-start {
+        padding-top: 23px;
+    }
+    /* ===comment=== */
+    .comment-content h3 {
+        left: 50%;
+        font-size: 21px;
+        text-align: center;
+        transform: translateX(-50%);
+    }
+    .comment-content h3::before{
+        display: none;
+    }
+    .comment-content p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-right: 0px;
+        padding: 0px 1px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    #comment {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /* ===team=== */
+    #team {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .person-details {
+        padding: 20px 0px 0px 0px
+    }
+    .person-details h3 {
+        padding-bottom: 2px;
+        line-height: 20px;
+    }
+    .person-social-icon a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .person-social-icon {
+        left: 60%;
+        width: 206px;
+    }
+    /*===work===*/
+
+    .work-content i {
+        font-size: 30px;
+        padding-bottom: 16px;
+    }
+    .work-content h3 {
+        font-size: 13px;
+        padding-bottom: 2px;
+
+    }
+    .work-content p {
+        font-size: 13px;
+    }
+    #work {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    /*===footer===*/
+    footer {
+        padding-top: 54px;
+        padding-bottom: 50px;
+    }
+    .footer-logo {
+       
+        margin-left: -49px;
+    }
+    .footer-left-paragraph p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-top: 12px;
+        padding-bottom: 7px;
+    }
+    .followers-tittle h4 {
+        padding-bottom: 21px;
+    }
+    .followers span {
+        font-size: 14px;
+        padding-right: 4px;
+    }
+    .followers a {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .followers a i {
+        font-size: 17px;
+    }
+    .followers {
+        padding-top: 6px;
+        padding-bottom: 13px;
+    }
+    .subscribe input {
+        padding: 8px 180px 8px 10px;
+       
+    }
+    .subscribe button {
+        position: absolute;
+        padding: 11px 29px;
+        font-size: 13px;
+        margin-top: 1px;
+        right: 124px;
+    }
+    .blog-content h4 {
+        line-height: 17px;
+        margin-top: 10px;
+    }
+    .footer-tittle h4 {
+        font-size: 13px;
+        margin-bottom: 19px;
+        margin-top: 39px;
+    }
+    /*===copyright===*/
+    #copyright {
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+    .copyright-text h3 {
+        font-size: 13px;
+    }
+    footer {
+        padding-bottom: 27px;
+    }
+}
+
+@media(max-width:575.99px){
+    /*==navbar==*/
+    .navbar-brand h3 {
+        transform: scale(0.6);
+    }
+    
+    .navbar {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        }
+    .navbar-toggler{
+        color: white;
+        margin-top: -10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+   
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding: 7px 0px;
+    }
+    .left {
+        display: none!important;
+    }
+    .right {
+       display: none!important;
+    }
+    .navbar-nav.ms-auto.mb-2.mb-lg-0 {
+        background: linear-gradient(to top,rgba(252, 227, 138, 0.9),rgba(243, 129, 129, 0.9));
+        margin-top: -4px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 13px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after{
+       display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link{
+        color: #fce38a!important;
+    }
+    /*==banner==*/
+    .banner-text h1 {
+        font-size: 20px;
+        line-height: 1px;   
+    }
+    .banner-btn a {
+        font-size: 13px;
+        padding: 5px 17px;
+    }
+    .banner-btn {
+        margin-top: 22px;
+    }
+    .banner-text h2 {
+        font-size: 24px;
+        padding-bottom: 15px;
+    }
+    .banner-text h1::after{
+        display: none;
+    }
+    .banner-text.text-center {
+        margin-top: 20px;
+    }
+    /*==about==*/
+    #about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about-content h3 {
+        width: 126px;
+    }
+    .section-tittle h2 {
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+    .section-tittle h3 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .section-tittle p {
+        font-size: 13px;
+        line-height: 19px;
+        padding: 18px 18px;
+    }
+    .section-tittle {
+        padding-bottom: 0px;
+    }
+    /* ===counter=== */
+    #counter {
+        padding-top: 50px;
+        padding-bottom: 24px;
+    }
+    .counter-up h2 {
+        font-size: 45px;
+        padding-bottom: 8px;
+    }
+    .counter-up p {
+        font-size: 11px;
+    }
+    .counter-up {
+        margin-bottom: 26px;
+    }
+    /*===service===*/
+    #service {
+        padding-top: 50px;
+        padding-bottom: 35px;
+    }
+    .service-content h3 {
+        padding-top: 15px;
+        padding-bottom: 2px;
+        font-size: 13px;
+    }
+    .service-content p {
+        line-height: 19px;
+        font-weight: 300;
+        padding: 0px 34px;
+        font-size: 13px;
+    }
+    .sec-service{
+        padding-bottom: 22px;
+    }
+    .service-item {
+        margin-top: 0;
+    }
+    .service-icon.text-center.text-lg-start {
+        padding-top: 23px;
+    }
+    /* ===comment=== */
+    .comment-content h3 {
+        left: 50%;
+        font-size: 21px;
+        text-align: center;
+        transform: translateX(-50%);
+    }
+    .comment-content h3::before{
+        display: none;
+    }
+    .comment-content p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-right: 0px;
+        padding: 0px 1px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    #comment {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /* ===team=== */
+    #team {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .person-details {
+        padding: 20px 0px 0px 0px
+    }
+    .person-details h3 {
+        padding-bottom: 2px;
+        line-height: 20px;
+    }
+    .person-social-icon a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .person-social-icon {
+        left: 60%;
+        width: 275px;
+    }
+    /*===work===*/
+    
+    .work-content i {
+        font-size: 30px;
+        padding-bottom: 16px;
+    }
+    .work-content h3 {
+        font-size: 13px;
+        padding-bottom: 2px;
+    }
+    .work-content p {
+        font-size: 13px;
+    }
+    #work {
+        padding-top: 50px;
+    }
+    #work {
+        padding-bottom: 50px;
+
+    }
+    /*===footer===*/
+    footer {
+        padding-top: 54px;
+        padding-bottom: 50px;
+    }
+    .footer-logo {
+       
+        margin-left: -49px;
+    }
+    .footer-left-paragraph p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-top: 12px;
+        padding-bottom: 7px;
+    }
+    .followers-tittle h4 {
+        padding-bottom: 21px;
+    }
+    .followers span {
+        font-size: 14px;
+        padding-right: 4px;
+    }
+    .followers a {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .followers a i {
+        font-size: 17px;
+    }
+    .followers {
+        padding-top: 6px;
+        padding-bottom: 13px;
+    }
+    .subscribe input {
+        padding: 8px 38px 8px 10px;
+        display: block;
+    }
+    .subscribe button {
+        position: static;
+        padding: 7px 29px;
+        font-size: 13px;
+        margin-top: 8px;
+    }
+    .blog-content h4 {
+        line-height: 17px;
+        margin-top: 10px;
+    }
+    .footer-tittle h4 {
+        font-size: 13px;
+        margin-bottom: 19px;
+        margin-top: 27px;
+    }
+    /*===copyright===*/
+    #copyright {
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+    .copyright-text h3 {
+        font-size: 13px;
+    }
+    footer {
+        padding-bottom: 27px;
+    }
+}
+@media(min-width: 380px) and (max-width: 575px){
+    .navbar-brand h3 {
+        transform: scale(0.9);
+    }
+    .banner-text h1 {
+        font-size: 25px;
+        line-height: 1px;   
+    }
+    .banner-btn a {
+        font-size: 13px;
+        padding: 5px 17px;
+    }
+    .banner-btn {
+        margin-top: 28px;
+    }
+    .banner-text h2 {
+        font-size: 24px;
+        padding-bottom: 15px;
+    }
+    .banner-text h1::after{
+        display: none;
+    }
+    .banner-text.text-center {
+        margin-top: 20px;
+    }
+    footer {
+        padding-bottom: 35px;
+    }
+}
